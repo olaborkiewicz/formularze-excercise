@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Podstawy CSS</title>
+   
+</head>
+<body>
+    
+    <form method="POST" action="script.php"> 
+        <input type="text" placeholder="Imię i nazwisko"  name="inputName"/>
+        <input type="email" placeholder="E-mail..." name="inputEmail"/>
+        <input type="phone" placeholder="Phone number" name="inputPhone"/>
+        <input type="password" placeholder="Hasło" name="inputPassword"/>
+        <input type="number" placeholder="Wiek" step="1" name="inputWiek" />
+        <textarea name="textarea" placeholder="dodatkowe uwagi..."></textarea> 
+        <select name="selectName">
+            <option value="1">Lubię</option>
+            <option value="2">Nie jestem przekonany/a</option>
+            <option value="3">Nie lubię</option>
+        </select>
+        <input type="submit" value="wyślij"/>
+        <button type="submit">
+            Wyślij formularz
+        </button>
+ 
+
+        <h1> wakacyjne destynacje </h1>
+        <p> Który kraj najchętniej odwiedzisz w 2023? </p>
+
+        <input type="radio" name="fav_destination" value="Chorwacja"/>
+        <label for="Chorwacja">Chorwacja</label><br>
+        <input type="radio" name="fav_destination" value="Grecja"/>
+        <label for="Grecja">Grecja</label><br>
+        <input type="radio" name="fav_destination" value="Hiszpania"/>
+        <label for="Hiszpania">Hiszpania</label><br>
+
+    </form>
+</body>
+</html>
